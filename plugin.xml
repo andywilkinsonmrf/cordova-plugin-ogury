@@ -59,7 +59,7 @@
 
           </config-file>
         <config-file target="app/src/main/AndroidManifest.xml" parent="/*" mode="merge">
-            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
           
