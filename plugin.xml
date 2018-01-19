@@ -33,7 +33,7 @@
                 </feature>
         </config-file>
 
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application" mode="merge">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
         <!-- PRESAGE LIBRARY -->
         <meta-data android:name="presage_key" android:value="$API_KEY" />
         <service android:enabled="true" android:exported="true" android:name="io.presage.PresageService" android:process=":remote">
