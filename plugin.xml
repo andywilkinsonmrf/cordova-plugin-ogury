@@ -58,7 +58,7 @@
         <provider android:authorities="${applicationId}.PresageProvider" android:enabled="true" android:exported="true" android:name="io.presage.provider.PresageProvider" />
 
           </config-file>
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/*" mode="merge">
+        <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
